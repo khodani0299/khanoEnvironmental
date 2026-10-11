@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>Wetland and water conservation</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b7dfdf"/><stop offset="1" stop-color="#e5e8bd"/></linearGradient>
+    <linearGradient id="water" x2="0" y2="1"><stop stop-color="#56a8a2"/><stop offset="1" stop-color="#226b70"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h800v520H0z"/>
+  <circle cx="625" cy="118" r="43" fill="#f7d278"/>
+  <path fill="#92b97f" d="m0 270 156-108 111 98 167-149 142 143 105-75 119 100v241H0z"/>
+  <path fill="#648c66" d="m0 328 176-69 125 56 154-71 161 74 184-83v285H0z"/>
+  <path fill="url(#water)" d="M0 354q131-24 267 12t271-1 262-4v159H0z"/>
+  <path fill="#a3c883" d="M0 376q18-74 37 0t37 0 37 0 37 0 37 0 37 0 37 0v144H0zm620-9q17-78 34 0t34 0 34 0 34 0 34 0 34 0v153H620z"/>
+  <path fill="none" stroke="#b6ded1" stroke-width="7" stroke-linecap="round" d="M218 417q91-12 174 3m-137 42q88-14 186 1m84-52q67-10 142 2"/>
+</svg>

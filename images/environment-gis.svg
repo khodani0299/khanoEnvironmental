@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>GIS mapping and environmental field data</title>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c5e6e1"/><stop offset="1" stop-color="#f0e8c1"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h800v520H0z"/>
+  <circle cx="652" cy="102" r="42" fill="#f8ce70"/>
+  <path fill="#a4c489" d="m0 283 142-111 130 114 160-143 173 145 100-85 95 80v237H0z"/>
+  <path fill="#658b60" d="M0 357q142-80 302 0t282 0 216-23v186H0z"/>
+  <path fill="#39747a" d="M0 450q135-38 270 0t267 0 263-8v78H0z"/>
+  <path fill="none" stroke="#f3e7a7" stroke-width="5" stroke-dasharray="10 10" d="M127 283 277 402l142-135 113 125 118-144"/>
+  <path fill="none" stroke="#fff" stroke-width="4" d="M125 280v125h150v-125zm150 0v122h144V267zm144-13v143h113V254zm113-13v156h118V242z"/>
+  <g fill="#de6552"><circle cx="277" cy="402" r="10"/><circle cx="419" cy="267" r="10"/><circle cx="532" cy="392" r="10"/></g>
+</svg>

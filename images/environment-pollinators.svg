@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>Native flowers and pollinators</title>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c9e8dd"/><stop offset="1" stop-color="#f5e8bc"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h800v520H0z"/>
+  <circle cx="651" cy="101" r="44" fill="#f7ce74"/>
+  <path fill="#a8c989" d="m0 298 133-104 151 110 149-146 168 153 104-98 95 83v224H0z"/>
+  <path fill="#73935d" d="M0 361q135-58 270 0t260 0 270-16v175H0z"/>
+  <path fill="#496f4b" d="M0 449q165-54 330 0t280 0 190-9v80H0z"/>
+  <g stroke="#588348" stroke-width="8" stroke-linecap="round"><path d="M169 460v-104m0 59-32-27m32 10 26-29m163 91V327m0 76-35-31m35 9 30-37m169 116v-88m0 48-27-24m27 9 24-26m82 81v-96"/></g>
+  <g fill="#f4d270"><circle cx="169" cy="346" r="19"/><circle cx="332" cy="310" r="24"/><circle cx="533" cy="358" r="18"/><circle cx="615" cy="351" r="20"/></g>
+  <g fill="#f1a66f"><circle cx="156" cy="346" r="12"/><circle cx="345" cy="310" r="15"/><circle cx="521" cy="358" r="12"/><circle cx="629" cy="351" r="13"/></g>
+  <g fill="#314e3d"><ellipse cx="437" cy="234" rx="19" ry="12"/><path d="M425 227q-22-27-31-8 5 17 31 16m17-8q22-27 31-8-5 17-31 16"/></g>
+</svg>

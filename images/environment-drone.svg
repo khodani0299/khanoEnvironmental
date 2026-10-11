@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>Drone-assisted environmental monitoring</title>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b9e3e8"/><stop offset="1" stop-color="#f5e7bd"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h800v520H0z"/>
+  <circle cx="657" cy="110" r="43" fill="#f6ca6d"/>
+  <path fill="#a9c688" d="m0 309 153-117 137 106 155-151 157 142 108-91 90 81v241H0z"/>
+  <path fill="#618860" d="M0 366q154-77 307 0t276 0 217-19v173H0z"/>
+  <path fill="#337c7c" d="M0 449q154-52 307 0t276 0 217-16v87H0z"/>
+  <g stroke="#314f48" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="m330 170 54 18 54-18m-108 0-26-15m134 15 25-15m-85 33-8 36m8-36 9 36"/>
+  </g>
+  <rect x="365" y="171" width="39" height="29" rx="10" fill="#567d5d"/>
+  <circle cx="385" cy="213" r="10" fill="#ec835a"/>
+  <path fill="none" stroke="#f7f1cd" stroke-width="3" stroke-dasharray="7 8" d="M385 226v127l-82 45m82-45 91 47"/>
+  <g fill="#f2a871"><circle cx="303" cy="398" r="8"/><circle cx="476" cy="400" r="8"/></g>
+</svg>

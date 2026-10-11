@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>Native seedlings growing in restored soil</title>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c8e9dc"/><stop offset="1" stop-color="#f2e6b4"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h800v520H0z"/>
+  <circle cx="650" cy="102" r="42" fill="#f8ca6d"/>
+  <path fill="#a2c685" d="m0 297 154-117 135 112 162-148 167 148 105-91 77 72v247H0z"/>
+  <path fill="#648858" d="M0 364q148-73 296 0t279 0 225-20v176H0z"/>
+  <path fill="#745442" d="M0 423q155-36 310 0t287 0 203-12v109H0z"/>
+  <path fill="#4e7d4b" d="M142 427q0-73 41-100 41 27 41 100zm198-1q0-96 52-133 52 37 52 133zm203 5q0-67 37-92 37 25 37 92z"/>
+  <path fill="#9fc578" d="M183 375q-48-44-71-18 19 49 71 42zm207-39q-58-55-88-21 24 58 88 51zm209 42q-43-40-66-16 18 46 66 41z"/>
+  <path fill="none" stroke="#e3bf8c" stroke-width="6" d="M78 475q92-25 184 0t185 0 221 0"/>
+</svg>

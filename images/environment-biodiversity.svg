@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>Biodiversity and wildlife conservation</title>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c5e8db"/><stop offset="1" stop-color="#f2e6b1"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h800v520H0z"/>
+  <circle cx="645" cy="105" r="44" fill="#f6c969"/>
+  <path fill="#92b880" d="M0 289 136 180l141 93 144-143 177 157 98-101 104 92v242H0z"/>
+  <path fill="#49765a" d="M0 348q152-84 304-5t287 0 209-22v199H0z"/>
+  <path fill="#2d5946" d="M82 402q63-52 126 0l28 45H55zm495-9q70-56 140 0l29 48H552z"/>
+  <path fill="#f2d0a0" d="M294 377q13-50 34-67 18-15 43-10l29 20 28-4 11 14-39 6-18 31-18 62h-18l7-52-29 2-22 49h-18l13-53-26 1-17 45h-17l17-55z"/>
+  <path fill="#f2d0a0" d="m355 307 13-39 11 4-3 36m-36-4 2-39 12 1 4 43"/>
+  <path fill="#203f37" d="m389 320 33-8 17 9-15 6-26 1m-28 98h15v33h-19zm-41-2h15v35h-19z"/>
+  <path fill="#e8c671" d="M0 485q124-43 248 0t248 0 304-6v41H0z"/>
+</svg>

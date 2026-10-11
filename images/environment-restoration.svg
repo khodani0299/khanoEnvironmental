@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>Land rehabilitation and restoration</title>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b6deeb"/><stop offset="1" stop-color="#f5e8b3"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h800v520H0z"/>
+  <circle cx="651" cy="111" r="45" fill="#f5c861"/>
+  <path fill="#afc97d" d="M0 290 149 191l137 82 153-143 153 145 98-76 110 90v231H0z"/>
+  <path fill="#71955a" d="M0 363q173-102 340-14t267 5 193-20v186H0z"/>
+  <path fill="#55754c" d="M0 436q168-81 323 0t270-2 207-5v91H0z"/>
+  <path fill="#bd8750" d="M124 380h112l-13 22H137zm434 27h108l-14 22H571z"/>
+  <path fill="#415e43" d="m106 382 30-81 30 81h-17v75h-26v-75zm492 24 33-91 33 91h-18v78h-30v-78z"/>
+  <path fill="#73964c" d="M228 402q26-42 45 1l-13 12h-23zm342-3q24-40 42 2l-12 12h-22z"/>
+  <path fill="#d9dfa0" d="M0 482q126-28 252 0t252 0 296-7v45H0z"/>
+</svg>

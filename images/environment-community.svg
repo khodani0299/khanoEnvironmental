@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>Community environmental education</title>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c3e4dc"/><stop offset="1" stop-color="#f5e6bd"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h800v520H0z"/>
+  <circle cx="654" cy="100" r="43" fill="#f7cb6d"/>
+  <path fill="#a1c78b" d="m0 283 141-114 154 115 126-143 179 152 111-94 89 81v240H0z"/>
+  <path fill="#66926a" d="M0 351q161-71 315 7t265 0 220-25v187H0z"/>
+  <path fill="#c89c6a" d="M0 438h800v82H0z"/>
+  <path fill="#f1eee0" d="m119 350 92-70 93 70v111H119z"/>
+  <path fill="#658456" d="m101 353 110-89 111 89z"/>
+  <path fill="#8ec0bf" d="M182 386h29v75h-29zm49 0h29v75h-29z"/>
+  <g stroke="#344f43" stroke-width="7" stroke-linecap="round"><path d="m380 392 6-45m0 22-19-19m20 11 17-18m92 51 5-50m0 24-20-17m20 13 17-16m84 44 7-46m0 20-19-18m20 11 16-15"/></g>
+  <g fill="#e5ae60"><circle cx="386" cy="335" r="11"/><circle cx="483" cy="335" r="11"/><circle cx="587" cy="339" r="11"/></g>
+</svg>

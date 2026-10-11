@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>Forest restoration landscape</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b9e4db"/><stop offset="1" stop-color="#edf0cb"/></linearGradient>
+    <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#759a59"/><stop offset="1" stop-color="#355f49"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h800v520H0z"/>
+  <circle cx="638" cy="105" r="48" fill="#f7cf77"/>
+  <path fill="#a8c78a" d="M0 286 136 164l133 127 126-151 177 158 121-96 107 91v227H0z"/>
+  <path fill="url(#hill)" d="m0 341 167-105 146 94 165-125 150 130 172-84v269H0z"/>
+  <path fill="#254d3e" d="M55 410 103 277l49 133h-27v67H82v-67zm184-39 54-150 54 150h-31v106h-47V371zm355 14 49-136 50 136h-28v94h-43v-94zm103-17 45-124 45 124h-25v98h-40v-98z"/>
+  <path fill="#79b05e" d="M0 461q116-61 232 0t232 0 232 0 232-4v63H0z"/>
+  <path fill="#cfdb9d" d="M0 486q146-31 292 0t292 0 216-12v46H0z"/>
+</svg>

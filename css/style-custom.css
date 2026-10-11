@@ -273,3 +273,21 @@ html .woocommerce .quantity .minus, html .woocommerce #content .quantity .minus,
 .greennature-skin-brown-column-service .greennature-skin-box, .greennature-skin-brown-column-service .greennature-column-service-item .greennature-skin-box{ background-color: #ffffff; }
 .greennature-skin-brown-column-service *, .greennature-skin-brown-column-service .greennature-skin-border{ border-color: #ffffff; }
 .greennature-skin-brown-column-service .greennature-button, .greennature-skin-brown-column-service .greennature-button:hover, .greennature-skin-brown-column-service input[type="button"], .greennature-skin-brown-column-service input[type="submit"]{ color: #ffffff; background-color: #ffffff;  }
+
+.home-section-intro{ max-width: 780px; margin: 0 auto 35px; padding: 38px 15px 0; text-align: center; }
+.home-section-intro h2{ margin: 0 0 10px; color: #315b35; font-family: Lato, sans-serif; font-size: 30px; font-weight: 700; line-height: 1.25; }
+.home-section-intro p, .home-section-subtitle{ margin: 0; color: #666666; font-size: 16px; line-height: 1.7; }
+.home-section-intro-light h2, .home-section-intro-light p{ color: #ffffff; }
+.home-hero-intro{ padding-top: 28px; padding-bottom: 30px; }
+.home-section-subtitle{ margin: -5px 0 30px; }
+#content-section-4 .greennature-classic-portfolio .portfolio-thumbnail{ aspect-ratio: 4 / 3; }
+#content-section-4 .greennature-classic-portfolio .portfolio-thumbnail img{ width: 100%; height: 100%; object-fit: cover; }
+#content-section-5 .home-values-image{ display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 3px; }
+#content-section-1 .personnel-founder-image{ aspect-ratio: 500 / 297; }
+#content-section-1 .personnel-founder-image img{ display: block; width: 100%; height: 100%; object-fit: cover; }
+
+@media only screen and (max-width: 767px){
+    .home-section-intro{ margin-bottom: 25px; padding-top: 30px; }
+    .home-section-intro h2{ font-size: 25px; }
+    .home-section-intro p, .home-section-subtitle{ font-size: 15px; }
+}

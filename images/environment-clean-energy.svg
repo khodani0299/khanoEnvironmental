@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <title>Renewable energy and sustainable landscapes</title>
+  <defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b9e3ee"/><stop offset="1" stop-color="#f4e8bd"/></linearGradient></defs>
+  <path fill="url(#sky)" d="M0 0h800v520H0z"/>
+  <circle cx="642" cy="110" r="46" fill="#f8c966"/>
+  <path fill="#adc982" d="m0 303 162-121 150 110 164-149 160 146 89-81 75 71v241H0z"/>
+  <path fill="#6a9159" d="M0 369q155-84 317 0t261 0 222-23v174H0z"/>
+  <path fill="#427151" d="M0 441q143-47 286 0t286 0 228-9v88H0z"/>
+  <g fill="#f6f4e5" stroke="#567564" stroke-width="5">
+    <path d="m152 347 78 0-8 48h-63z"/><path d="m249 341 77 0-8 48h-63z"/><path d="m195 409 78 0-8 46h-63z"/>
+  </g>
+  <g stroke="#566e5a" stroke-width="5"><path d="m190 395-4 27m44-27 7 27m42-27-14 14m-6 44-2 26"/></g>
+  <path fill="#fff" d="M508 336V177m-1 75-38-40m38 40 41-45m-41 45v-60"/>
+  <path fill="none" stroke="#567564" stroke-width="8" stroke-linecap="round" d="M507 335V177m0 68-46-44m46 44 48-53m-48 53v-71"/>
+</svg>

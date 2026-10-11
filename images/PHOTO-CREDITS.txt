@@ -1,0 +1,13 @@
+Environmental stock photos downloaded from Unsplash. These are illustrative stock
+photos, not photographs of Khano Environmental projects, staff, or clients.
+
+Unsplash license: https://unsplash.com/license
+
+Photo sources:
+- Forest: https://unsplash.com/photos/1441974231531-c6227db76b6e
+- Mountain lake: https://unsplash.com/photos/1501785888041-af3ef285b470
+- Misty landscape: https://unsplash.com/photos/1470071459604-3b5ec3a7fe05
+- Wildlife: https://unsplash.com/photos/1472396961693-142e6e269027
+- Stream: https://unsplash.com/photos/1437482078695-73f5ca6c96e2
+- Community: https://unsplash.com/photos/1509099836639-18ba1795216d
+- Drone: https://unsplash.com/photos/1506947411487-a56738267384
