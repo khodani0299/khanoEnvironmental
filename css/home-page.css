@@ -21,14 +21,16 @@ body.home .home-hero-intro p {
 
 body.home .home-services-section {
     padding: 18px 0 54px;
-    border-top: 1px solid #e5ebe4;
+
     background:
-        linear-gradient(rgba(245, 247, 243, .82), rgba(245, 247, 243, .82)),
+
         url('../images/khano-conservation-landscape.jpg') center / cover no-repeat;
 }
 
 body.home .home-services-section .home-section-intro {
     margin-bottom: 30px;
+
+
 }
 
 body.home .home-services-section .home-section-intro h2 {
@@ -36,7 +38,7 @@ body.home .home-services-section .home-section-intro h2 {
 }
 
 body.home .home-services-section .home-section-intro p {
-    color: #647066;
+    color: #fefffe;
 }
 
 body.home .home-service-card {
@@ -44,10 +46,9 @@ body.home .home-service-card {
     min-height: 310px;
     margin-bottom: 24px !important;
     padding: 28px 24px;
-    border: 1px solid #e5ebe4;
     border-radius: 5px;
-    background: #fff !important;
-    box-shadow: 0 8px 24px rgba(32, 57, 36, .07);
+    background: #5dc269;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .2);
     text-align: center;
     transition: transform .2s ease, box-shadow .2s ease;
 }
@@ -66,14 +67,15 @@ body.home .home-service-card .column-service-content-wrapper {
 }
 
 body.home .home-service-card .column-service-title {
-    color: #284d31;
+    color: #fff;
     font-size: 21px;
 }
 
 body.home .home-service-card .column-service-content {
-    color: #68736a;
+    color: rgba(255, 255, 255, .9);
     font-size: 14px;
     line-height: 1.7;
+
 }
 
 body.home .home-service-card .column-service-read-more {
@@ -81,7 +83,7 @@ body.home .home-service-card .column-service-read-more {
     padding: 0;
     border: 0;
     background: none;
-    color: #39834a;
+    color: #fff;
     font: inherit;
     font-weight: 700;
     cursor: pointer;
@@ -89,7 +91,7 @@ body.home .home-service-card .column-service-read-more {
 
 body.home .home-service-card .column-service-read-more:hover,
 body.home .home-service-card .column-service-read-more:focus-visible {
-    color: #245b31;
+    color: #ebfff0;
     text-decoration: underline;
 }
 
@@ -111,7 +113,7 @@ body.home .home-service-dialog {
     overflow: auto;
     border: 0;
     border-radius: 8px;
-    color: #526056;
+    color: #fefffe;
     box-shadow: 0 24px 80px rgba(0, 0, 0, .28);
 }
 
@@ -209,6 +211,7 @@ body.home .home-contact-actions {
     flex-wrap: wrap;
     gap: 10px;
     flex-shrink: 0;
+
 }
 
 body.home .home-contact-cta .greennature-button {
