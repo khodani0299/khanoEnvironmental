@@ -113,7 +113,8 @@ body.home .home-service-dialog {
     overflow: auto;
     border: 0;
     border-radius: 8px;
-    color: #fefffe;
+    background: #fff;
+    color: #454545;
     box-shadow: 0 24px 80px rgba(0, 0, 0, .28);
 }
 
@@ -164,6 +165,7 @@ body.home .home-service-dialog h2 {
 
 body.home .home-service-dialog p,
 body.home .home-service-dialog li {
+    color: #454545;
     font-size: 15px;
     line-height: 1.7;
 }
