@@ -7,7 +7,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>About Khano Environmental | Greener Today. Brighter Tomorrow.</title>
 
@@ -33,15 +33,51 @@
 
 </head>
 <style>
-    /* Two-column layout: text left, image right. Keep side-by-side (no stacking) as requested. */
-    .about-two-column { display:flex; gap:30px; align-items:stretch; flex-wrap:nowrap; overflow-x:auto; }
-    .about-two-column .about-text { flex:0 0 50%; min-width:260px; }
-    .about-two-column .about-image { flex:0 0 50%; min-width:260px; display:flex; }
+    .about-two-column { display:flex; gap:30px; align-items:stretch; }
+    .about-two-column .about-text,
+    .about-two-column .about-image { flex:1 1 0; min-width:0; }
+    .about-two-column .about-image { display:flex; }
     .about-two-column .about-image img { width:100%; height:100%; object-fit:cover; border-radius:4px; display:block; }
-    /* On very narrow viewports allow horizontal scroll rather than stacking */
-    @media (max-width: 480px) {
-        .about-two-column { gap:16px; }
-        .about-two-column .about-text, .about-two-column .about-image { min-width:220px; }
+    @media (max-width: 767px) {
+        .about-two-column { flex-direction:column; gap:20px; }
+        .about-two-column .about-text,
+        .about-two-column .about-image { flex:0 0 auto; width:100%; }
+        #content-section-1 .greennature-parallax-wrapper {
+            padding:110px 15px 65px !important;
+            background-position:center;
+            background-size:cover;
+        }
+        #content-section-1 .greennature-item-title {
+            font-size:clamp(26px, 7vw, 38px);
+            line-height:1.15;
+            letter-spacing:1px;
+        }
+        #content-section-1 .greennature-item-title-caption {
+            font-size:16px;
+            line-height:1.5;
+        }
+        #content-section-5 .greennature-parallax-wrapper {
+            padding:75px 15px 60px !important;
+            background-position:center;
+            background-size:cover;
+        }
+        #content-section-5 .stunning-item-title {
+            font-size:clamp(27px, 8vw, 40px);
+            line-height:1.2;
+        }
+        #content-section-5 .stunning-item-caption {
+            font-size:15px;
+            line-height:1.5;
+        }
+        .about-two-column .about-image img {
+            height:auto;
+            max-height:360px;
+            object-fit:cover;
+        }
+        #content-section-4 .columns {
+            float:none;
+            width:100%;
+        }
     }
 </style>
 
@@ -299,7 +335,7 @@
                                                 <p>Our vision is to become a leading African environmental consulting and sustainability partner while empowering communities to benefit from a greener future.</p>
                                                 <p>We are 100% Black Female-Owned and a B-BBEE Level 1 contributor, based in Johannesburg. Company registration number: 2024 / 465834 / 07.</p>
                                             </div>
-                                            <div style="margin-top:12px;"><a class="about-us-read-more greennature-button" href="contact-page.html">Contact Us</a></div>
+                                            <div style="margin-top:12px;"><a class="about-us-read-more greennature-button" href="environmental-impact.html">LEARN MORE</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -320,7 +356,7 @@
                                     <div class="greennature-item-title-wrapper greennature-item  greennature-left-divider greennature-medium ">
                                         <div class="greennature-item-title-container container">
                                             <div class="greennature-item-title-head">
-                                                <h3 class="greennature-item-title greennature-skin-title greennature-skin-border">Founder &amp; Managing Director</h3>
+
                                                 <div class="clear"></div>
                                             </div>
                                         </div>
@@ -338,8 +374,8 @@
                                     </div>
                                     <div class="six columns">
                                         <div class="greennature-item">
-                                            <h3 class="personnel-author greennature-skin-title">Wendy Maduwa</h3>
-                                            <div class="personnel-position greennature-skin-info">Founder &amp; Managing Director</div>
+                                          <h3 class="greennature-item-title greennature-skin-title greennature-skin-border">Founder &amp; Managing Director</h3>
+                                            <div class="personnel-position greennature-skin-info">Wendy Maduwa</div>
                                             <div class="personnel-content greennature-skin-content" style="margin-top: 15px;">
                                                 <p>Wendy is an Environmental Manager, Sustainability Practitioner and Project Management Professional. Her work has contributed to the restoration and management of more than 2,000 hectares and environmental education programmes reaching more than 3,000 learners.</p>
                                                 <p>She brings technical environmental expertise together with community-centred approaches to deliver measurable ecological and social outcomes.</p>
@@ -365,7 +401,8 @@
                                                 <h3 class="column-service-title">Sustainability</h3>
                                                 <div class="column-service-caption greennature-skin-info">People and planet</div>
                                                 <div class="column-service-content greennature-skin-content">
-                                                    <p>Protecting people, ecosystems and future generations.</p>
+                                                    <p>Environmental sustainability, people, ecosystems and future generations.</p>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -410,8 +447,9 @@
                                     <div class="greennature-item greennature-stunning-item greennature-stunning-center">
                                         <h2 class="stunning-item-title">Greener Today. Brighter Tomorrow.</h2>
                                         <div class="stunning-item-caption greennature-skin-content">
-                                            <p>We work with partners and communities towards sustainable environmental outcomes.</p>
-                                        </div><a class="stunning-item-button greennature-button large" href="contact-page.html" style="background-color: #fec428; color: #ffffff;">Get in Touch</a></div>
+                                            <p style="color: #ffffff;">We work with partners and communities towards sustainable
+                                              environmental outcomes.</p>
+                                        </div><a class="stunning-item-button greennature-button large" href="service.html" style="background-color: #fec428; color: #ffffff;">Explore Our Services</a></div>
                                 </div>
                                 <div class="clear"></div>
                                 <div class="clear"></div>
@@ -537,7 +575,7 @@
                         <a href="http://facebook.com/goodlayers"><i class="greennature-icon fa fa-facebook" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="http://twitter.com/goodlayers"><i class="greennature-icon fa fa-twitter" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-dribbble" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-pinterest" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-google-plus" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="greennature-icon fa fa-instagram" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
                     </div>
                     <div class="copyright-right">
-                        Khano Environmental (Pty) Ltd | Greener Today. Brighter Tomorrow. </div>
+                      Khano Environmental (Pty) Ltd | Greener Today. Brighter Tomorrow. Powered by <a href="https://www.dotgetweb.co.za/">Dotgetweb</a></div>
                     <div class="clear"></div>
                 </div>
             </div>

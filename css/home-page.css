@@ -3,6 +3,14 @@ body.home .master-slider-parent > .master-slider {
     height: 620px !important;
 }
 
+body.home #slider_1 .ms-slide:nth-child(1) .msp-cn-1-2,
+body.home #slider_1 .ms-slide:nth-child(1) .msp-cn-1-3 {
+    font-family: "Fraunces", Georgia, serif !important;
+    font-weight: 700 !important;
+    font-optical-sizing: none;
+    font-variation-settings: "opsz" 9;
+}
+
 body.home .home-hero-intro {
     max-width: 860px;
     margin: 0 auto;
@@ -236,9 +244,103 @@ body.home .copyright-wrapper {
 }
 
 @media only screen and (max-width: 767px) {
-    body.home .master-slider-parent,
-    body.home .master-slider-parent > .master-slider {
-        height: 420px !important;
+  body.home #P_slider_1,
+  body.home #P_slider_1 > #slider_1,
+  body.home #slider_1 .ms-container,
+  body.home #slider_1 .ms-view {
+    height: max(200px, 56vw) !important;
+    background: url('../images/khano-forest.jpg') center / cover no-repeat !important;
+
+  }
+}
+  @media only screen and (max-width: 767px) {
+    body.home #P_slider_1,
+    body.home #P_slider_1 > #slider_1,
+    body.home #slider_1 .ms-container,
+    body.home #slider_1 .ms-view {
+      height: max(200px, 56vw) !important;
+      background: url('../images/khano-community.jpg') center / cover no-repeat !important;
+    }
+  }
+    @media only screen and (max-width: 767px) {
+      body.home #P_slider_1,
+      body.home #P_slider_1 > #slider_1,
+      body.home #slider_1 .ms-container,
+      body.home #slider_1 .ms-view {
+        height: max(180px, 56vw) !important;
+        background: url('../images/e2435533a11245117add3ebb219acc2e.jpg') center / cover no-repeat !important;
+      }
+
+    body.home #slider_1 .ms-layer {
+        box-sizing: border-box;
+        width: calc(100% - 32px);
+        max-width: none;
+        white-space: normal;
+        text-align: center;
+        overflow-wrap: break-word;
+        left: 16px !important;
+        right: 16px !important;
+        transform: none !important;
+    }
+
+    body.home #slider_1 .ms-slide:nth-child(1) .msp-cn-1-3 {
+        top: 18% !important;
+    }
+
+    body.home #slider_1 .ms-slide:nth-child(1) .msp-cn-1-2 {
+        top: 36% !important;
+    }
+
+    body.home #slider_1 .ms-slide:nth-child(1) .msp-cn-1-1 {
+        top: 52% !important;
+    }
+
+    body.home #slider_1 .ms-slide:nth-child(2) .msp-cn-1-9 {
+        top: 18% !important;
+    }
+
+    body.home #slider_1 .ms-slide:nth-child(2) .msp-cn-1-7 {
+        top: 35% !important;
+    }
+
+    body.home #slider_1 .ms-slide:nth-child(2) .msp-cn-1-5 {
+        top: 52% !important;
+    }
+
+    body.home #slider_1 .ms-slide:nth-child(3) .msp-cn-1-10 {
+        top: 34% !important;
+    }
+
+    body.home #slider_1 .ms-slide:nth-child(3) .msp-cn-1-13 {
+        top: 51% !important;
+    }
+
+    body.home #slider_1 .msp-cn-1-1,
+    body.home #slider_1 .msp-cn-1-2,
+    body.home #slider_1 .msp-cn-1-3,
+    body.home #slider_1 .msp-cn-1-5,
+    body.home #slider_1 .msp-cn-1-7,
+    body.home #slider_1 .msp-cn-1-9,
+    body.home #slider_1 .msp-cn-1-10,
+    body.home #slider_1 .msp-cn-1-13 {
+        font-size: clamp(22px, 6vw, 32px) !important;
+        line-height: 1.15;
+        letter-spacing: 0.5px;
+    }
+
+    body.home #slider_1 .ms-btn {
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) !important;
+        top: 76% !important;
+        width: auto !important;
+        font-size: 13px;
+        padding: 10px 16px;
+        white-space: nowrap;
+    }
+
+    body.home #slider_1 .ms-slide:nth-child(1) .ms-btn {
+        top: 68% !important;
     }
 
     body.home .home-hero-intro {
@@ -259,12 +361,49 @@ body.home .copyright-wrapper {
         padding: 26px 22px;
     }
 
+    body.home .home-contact-actions {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    body.home .home-contact-actions .greennature-button {
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    body.home .home-service-card {
+        min-height: 0;
+        padding: 24px 20px;
+    }
+
     body.home .home-service-dialog-content {
         padding: 34px 24px 28px;
     }
 
     body.home .home-service-dialog h2 {
         font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 419px) {
+    body.home #P_slider_1,
+    body.home #P_slider_1 > #slider_1,
+    body.home #slider_1 .ms-container,
+    body.home #slider_1 .ms-view {
+        height: max(200px, 56vw) !important;
+    }
+
+    body.home .home-hero-intro {
+        padding: 28px 16px 32px;
+    }
+
+    body.home .home-contact-cta {
+        padding: 22px 18px;
+    }
+
+    body.home .home-service-dialog-content {
+        padding: 32px 20px 24px;
     }
 }
 

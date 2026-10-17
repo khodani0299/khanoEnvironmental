@@ -863,12 +863,15 @@ html .woocommerce .greennature-widget-title {
 .greennature-page-title-wrapper {
   padding: 85px 0px 80px;
   position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
   z-index: 89;
   line-height: 1;
   text-align: center;
-  background-image: url('../images/khano-conservation-landscape.jpg');
-  background-repeat: repeat;
+  background-image: url('images/khano-conservation-landscape.jpg');
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .greennature-page-title-wrapper .greennature-page-title-overlay {
@@ -937,13 +940,19 @@ html .woocommerce .greennature-widget-title {
 /*--- wrapper item ---*/
 .greennature-color-wrapper,
 .greennature-parallax-wrapper {
-  overflow: hidden;
-  background-position: center 0px;
+  overflow: visible;
+  background-position: center 100000px;
   background-repeat: repeat;
   position: relative;
 }
 
-/*--- sidebar ---*/
+.greennature-parallax-wrapper.greennature-background-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*--- sidebar---*/
 .with-sidebar-container .with-sidebar-content {
   float: right;
 }
@@ -5508,7 +5517,7 @@ ul.greennature-twitter-widget li .greennature-twitter {
   text-transform: none;
 }
 
-.wpcf7 input:focus::input-placeholder {
+.wpcf7 input:focus::placeholder {
   color: transparent;
 }
 
@@ -5528,7 +5537,7 @@ ul.greennature-twitter-widget li .greennature-twitter {
   color: transparent;
 }
 
-.wpcf7 textarea:focus::input-placeholder {
+.wpcf7 textarea:focus::placeholder {
   color: transparent;
 }
 
@@ -5622,18 +5631,18 @@ ul.greennature-twitter-widget li .greennature-twitter {
 /*----------------------------------------------------------------------*/
 /*---------------                RETINA               ------------------*/
 /*----------------------------------------------------------------------*/
-@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+@media only screen and (min-resolution: 2dppx) {
   blockquote {
-    background-image: url('../images/dark/quote%402x.png');
+    background-image: url('../images/dark/quote@2x.png');
     background-repeat: no-repeat;
   }
 
   .gdl-search-form input[type="submit"] {
-    background-image: url('../images/dark/icon-search%402x.png');
+    background-image: url('../images/dark/icon-search@2x.png');
   }
 
   .page-not-found-search .gdl-search-form input[type="submit"] {
-    background-image: url('../images/light/icon-search%402x.png');
+    background-image: url('../images/light/icon-search@2x.png');
   }
 }
 
