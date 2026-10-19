@@ -24,14 +24,17 @@
         .impact-hero h1, .impact-hero p { color: #fff; }
         .impact-video-section {
             position: relative;
-            left: 50%;
-            width: 100vw;
-            height: 100vh;
-            min-height: 360px;
-            margin-left: -50vw;
+            width: 100%;
+            max-width: 900px;
+            aspect-ratio: 16 / 9;
+            margin: 32px auto;
+            overflow: hidden;
+            border-radius: 8px;
             background: #000;
         }
         .impact-video-section iframe {
+            position: absolute;
+            inset: 0;
             display: block;
             width: 100%;
             height: 100%;
@@ -45,10 +48,6 @@
         .impact-contact { margin-top: 30px; }
         @media (max-width: 767px) {
             .impact-hero { padding: 65px 20px; }
-            .impact-video-section {
-                height: min(56.25vw, 70vh);
-                min-height: 0;
-            }
             .impact-content { padding: 40px 20px; }
         }
     </style>
@@ -98,10 +97,14 @@
 
 
 
+          <section class="impact-video-section" aria-label="Environmental services overview video">
+            <iframe src="https://player.vimeo.com/video/101707505?title=0&amp;byline=0&amp;portrait=0" title="Environmental services overview" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </section>
+
 
             <section class="impact-content">
                 <h2>Positive outcomes that last</h2>
-                <p>hano Environmental works to connect environmental stewardship with sustainable development. Our approach brings together restoration, environmental learning and community partnership to support meaningful long-term outcomes.
+                <p>Khano Environmental works to connect environmental stewardship with sustainable development. Our approach brings together restoration, environmental learning and community partnership to support meaningful long-term outcomes.
 
                   We are dedicated to protecting natural ecosystems, restoring degraded landscapes and promoting responsible environmental practices that benefit both people and nature.
 
@@ -121,9 +124,7 @@
                     </div>
                 </div>
 
-              <section class="impact-video-section" aria-label="Environmental services overview video">
-                <iframe src="https://player.vimeo.com/video/101707505?title=0&amp;byline=0&amp;portrait=0" title="Environmental services overview" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-              </section>
+
                 <h2>How we make a difference</h2>
                 <p>We are committed to protecting biodiversity, restoring degraded landscapes, and promoting the sustainable use of natural resources. Through environmental education and community engagement, we encourage responsible practices that create lasting positive change. Our goal is to build healthier ecosystems and more resilient communities for a sustainable future.We promote responsible waste management and pollution prevention to help preserve natural resources and maintain cleaner surroundings.
                   By working closely with project partners and local communities, we develop practical solutions that support long-term environmental sustainability</p>
