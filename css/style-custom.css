@@ -1478,6 +1478,14 @@ img, video, iframe {
   border-top: 0 !important;
 }
 
+footer.footer-wrapper {
+  text-align: right;
+}
+
+footer.footer-wrapper .copyright-left {
+  float: right;
+}
+
 .service-detail-dialog {
   width: min(560px, calc(100% - 32px));
   max-width: 560px;
