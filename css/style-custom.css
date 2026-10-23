@@ -131,13 +131,13 @@ h6 {
 }
 
 .greennature-main-menu > li:hover > a, .greennature-main-menu > li.current-menu-item > a, .greennature-main-menu > li.current-menu-ancestor > a {
-  color: #90ba92;
+  color: #304036;
   opacity: 1;
   filter: alpha(opacity=100);
 }
 
 .greennature-navigation-gimmick {
-  background-color: #90ba92;
+  background-color: #303f35;
 }
 
 .greennature-button-overlay {
